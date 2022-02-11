@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="MainMenu" android:onClick="goToMainMenu" app:showAsAction="always" android:icon="@android:drawable/ic_dialog_dialer"/>
+    <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/outline_search_black_24dp"
+            android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always"/>
+    <item android:title="Item" app:showAsAction="always" android:icon="@android:drawable/ic_menu_edit"
+          android:onClick="editProfil"/>
+    <item android:title="deco" android:onClick="deconnexion" android:icon="@android:drawable/ic_lock_power_off" app:showAsAction="always"/>
+</menu>

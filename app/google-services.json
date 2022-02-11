@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "755789360314",
+    "firebase_url": "https://localim-7ad0a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "localim-7ad0a",
+    "storage_bucket": "localim-7ad0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755789360314:android:f6ad5899abe58934ee2683",
+        "android_client_info": {
+          "package_name": "com.example.localim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755789360314-hq2lbink7c38oru0ajsmg48f3ntj1cfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.localim",
+            "certificate_hash": "8ddffa395c223d712b5fc2970f92c67fda3430e0"
+          }
+        },
+        {
+          "client_id": "755789360314-v86nmjcbmsnnhurlocb5aqbren3npufg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdtC-_stCA36pdGVPO4gXuTAGD_UbCjJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755789360314-v86nmjcbmsnnhurlocb5aqbren3npufg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

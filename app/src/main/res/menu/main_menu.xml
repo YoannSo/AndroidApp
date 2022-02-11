@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/outline_search_black_24dp"
+            android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always"/>
+    <item android:id="@+id/profilButton" app:showAsAction="always" android:icon="@drawable/profil_icon" android:onClick="openProfil"
+          android:title="profil"/>
+</menu>

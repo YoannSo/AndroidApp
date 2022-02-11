@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailLogIn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="yoann.sochaj@gmail.com"
+            android:layout_marginTop="124dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordLogIn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="azertyu" android:layout_marginTop="192dp"/>
+
+    <Button
+            android:text="Se connecter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="logIn"
+            android:hint="Creation du compte" android:layout_marginTop="384dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Si vous n'avez pas encore de compte cliquez ici"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="440dp" app:layout_constraintHorizontal_bias="0.0"
+              android:textSize="10dp"
+              android:onClick="launchSignInActivity" android:gravity="center_horizontal"
+              android:textColor="#3F51B5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

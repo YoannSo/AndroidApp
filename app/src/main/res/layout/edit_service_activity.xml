@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editServiceLieu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+    <EditText
+            android:layout_width="282dp"
+            android:layout_height="122dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editServiceDescription"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="204dp"
+            app:layout_constraintHorizontal_bias="0.666"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editServiceTitre"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="56dp"/>
+    <ImageView
+            android:layout_width="81dp"
+            android:layout_height="74dp" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/editServiceImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="324dp"
+            app:layout_constraintHorizontal_bias="0.502"
+    android:onClick="changeImage"/>
+    <Button
+            android:text="Editer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:onClick="Editer" android:layout_marginTop="416dp" app:layout_constraintHorizontal_bias="0.498"/>
+    <Button
+            android:text="Supprimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="Supprimer" android:layout_marginTop="476dp" app:layout_constraintHorizontal_bias="0.498"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical">
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/addServiceTitre" android:hint="titre"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/addServiceLieu" android:hint="Lieu"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/addServiceDescription" android:hint="DEscription"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Selectionner le cout de votre services"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+    >
+        <RadioButton
+                android:text="1"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content" android:id="@+id/radioButton1"/>
+        <RadioButton
+                android:text="2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" android:id="@+id/radioButton2"/>
+        <RadioButton
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"/>
+    </RadioGroup>
+
+    <Button android:layout_width="439dp" android:layout_height="wrap_content" android:onClick="importImage"
+            android:hint="Ajoutez une Image"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="addService"
+            android:hint="Confirmer"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/imageImported"/>
+
+</LinearLayout>
